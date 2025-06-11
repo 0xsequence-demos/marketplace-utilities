@@ -120,7 +120,7 @@ function App() {
           setLoading(true)
 
           try{
-            await fetch('https://simple-marketplace.tpin.workers.dev', {
+            await fetch('https://simple-marketplace.0xsequence.workers.dev', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
@@ -151,7 +151,7 @@ function App() {
           setLoading(true)
 
           try{
-            await fetch('https://simple-marketplace.tpin.workers.dev', {
+            await fetch('https://simple-marketplace.0xsequence.workers.dev', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
